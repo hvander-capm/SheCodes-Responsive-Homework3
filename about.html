@@ -12,10 +12,38 @@
     <link rel="stylesheet" href="style.css" />
   </head>
   <body>
-    <a href="index.html" class="homepage-link">Back to homepage</a>
-    <h1>About me</h1>
-    <h3>Front-end developer from Minnesota, USA</h3>
-    <div class="about-paragraphs text center">
+    <nav class="navbar navbar-expand-lg navbar-light bg-light">
+      <div class="container-fluid">
+        <a class="navbar-brand" href="#">Heather Vanderberg</a>
+        <button
+          class="navbar-toggler"
+          type="button"
+          data-bs-toggle="collapse"
+          data-bs-target="#navbarNav"
+          aria-controls="navbarNav"
+          aria-expanded="false"
+          aria-label="Toggle navigation"
+        >
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarNav">
+          <ul class="navbar-nav">
+            <li class="nav-item">
+              <a class="nav-link active" aria-current="page" href="#">Home</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="about.html">About Me</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="about.html#contact">Contact Me</a>
+            </li>
+          </ul>
+        </div>
+      </div>
+    </nav>
+    <h1 class="text-center">About me</h1>
+    <h3 class="text-center">Front-end developer from Minnesota, USA</h3>
+    <div class="about-paragraphs text-center">
       <p>
         Hello and Welcome to the About Me page of this project. I am from
         Minnesota, USA. I have been in SheCodes Basic, Plus and now Responsive.
